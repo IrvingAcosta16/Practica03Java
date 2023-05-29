@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora"
+        android:textSize="20dp"
+        android:textColor="#121212"> </TextView>
+
+
+    <EditText
+        android:id="@+id/txtUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/usuario"
+        android:layout_marginTop="80dp"/>
+
+    <EditText
+        android:id="@+id/txtContraseña"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/contraseña"
+        android:inputType="textPassword"
+        android:password="true" />
+
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar" />
+
+    <Button
+        android:id="@+id/btnAbandonar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abandonar" />
+
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica3Java</string>
+    <string name="usuario">Irving</string>
+    <string name="contraseña">rio1todo</string>
+    <string name="num1">Numero 1</string>
+    <string name="num2">Numero 2</string>
+    <string name="res">Resultado</string>
+</resources>
